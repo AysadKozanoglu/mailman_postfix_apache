@@ -26,7 +26,7 @@ if you edit /etc/aliases or virtual_* files than generate ne alias with and rest
 <pre>newaliases</pre>   
 
 
-## info see example configs from prod server
+#info -> see example configs from prod server
 
 
 
