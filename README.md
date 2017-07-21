@@ -36,15 +36,15 @@ Type <pre>/usr/lib/mailman/bin/genaliases</pre>, which will update /var/lib/mail
 
 (re)start mailman <pre>/etc/init.d/mailman</pre>
 
-copy the apache.conf from /etc/mailman/ to /etc/apach2/sites-enabled
+copy the <pre>apache.conf</pre> from <pre>/etc/mailman/</pre> to <pre>/etc/apach2/sites-enabled</pre>
 
 comment the line ScriptAlias from mailman/apache.conf
 
-edit the mm_cfg.py in /etc/mailman  and customize it
+edit the <pre>mm_cfg.py</pre> in <pre>/etc/mailman</pre>  and customize it
 MTA ='postfix'
 
 Postfix notices:
-if you edit /etc/aliases or virtual_* files than generate ne alias with and restart postfix
+if you edit <pre>/etc/aliases</pre> or<pre> virtual_*</pre> files than generate ne alias with and restart postfix
 <pre>newaliases</pre>   
 
 
