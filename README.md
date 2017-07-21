@@ -32,19 +32,19 @@ create initial list for mailman
 create your first mailinlist
 <pre>newlist <list_name>@<my.domain1.com></pre>
 
-Type <pre>/usr/lib/mailman/bin/genaliases</pre>, which will update /var/lib/mailman/data/aliases and var/lib/mailman/data/virtual-mailman accordingly. Now restart mailman to take our new settings
+Type <code>/usr/lib/mailman/bin/genaliases</code>, which will update /var/lib/mailman/data/aliases and var/lib/mailman/data/virtual-mailman accordingly. Now restart mailman to take our new settings
 
-(re)start mailman <pre>/etc/init.d/mailman</pre>
+(re)start mailman <code>/etc/init.d/mailman</code>
 
 copy the apache.conf from /etc/mailman/ to <code>/etc/apach2/sites-enabled</code>
 
 comment the line ScriptAlias from mailman/apache.conf
 
-edit the <pre>mm_cfg.py</pre> in <pre>/etc/mailman</pre>  and customize it
+edit the <code>mm_cfg.py</code> in <code>/etc/mailman</code>  and customize it
 MTA ='postfix'
 
 Postfix notices:
-if you edit <pre>/etc/aliases</pre> or<pre> virtual_*</pre> files than generate ne alias with and restart postfix
+if you edit <code>/etc/aliases</code> or<code> virtual_*</code> files than generate ne alias with and restart postfix
 <pre>newaliases</pre>   
 
 
