@@ -44,8 +44,8 @@ edit the <code>mm_cfg.py</code> in <code>/etc/mailman</code>  and customize it
 MTA ='postfix'
 
 Postfix notices:
-if you edit <code>/etc/aliases</code> or<code> virtual_*</code> files than generate ne alias with and restart postfix
-<pre>newaliases</pre>   
+if you edit <code>/etc/aliases</code> or<code> virtual_*</code> files than generate new alias with and restart postfix
+<pre>newaliases && /etc/init.d/postfix restart</pre>   
 
 
 #info -> see example configs from prod server
