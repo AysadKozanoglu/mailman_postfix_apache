@@ -2,8 +2,8 @@
 
 
 for the FQDN and correty identifing from postfix 
---> /etc/hosts & /etc/mailname
-<pre>x.x.x.x  your.domain.com</pre>
+--> /etc/hosts & /etc/mailname 
+<pre>x.x.x.x  your.domain.com your</pre>
 
 --> /etc/hostname
 <pre>your</pre>
