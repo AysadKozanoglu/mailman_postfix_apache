@@ -1,4 +1,19 @@
 ### Quick install guide
+
+
+for the FQDN and correty identifing from postfix 
+--> /etc/hosts & /etc/mailname
+<pre>x.x.x.x  your.domain.com</pre>
+
+--> /etc/hostname
+<pre>your</pre>
+
+<pre>hostname -f</pre>
+your.domain.com
+
+<pre>uname -n</pre>
+your
+
 <pre>
 apt-get update && apt-get install build-essential
 apt-get install mailman
