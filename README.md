@@ -32,7 +32,9 @@ create initial list for mailman
 create your first mailinlist
 <pre>newlist <list_name>@<my.domain1.com></pre>
 
-Type /usr/lib/mailman/bin/genaliases, which will update /var/lib/mailman/data/aliases and var/lib/mailman/data/virtual-mailman accordingly. Now restart mailman to take our new settings
+Type <pre>/usr/lib/mailman/bin/genaliases</pre>, which will update /var/lib/mailman/data/aliases and var/lib/mailman/data/virtual-mailman accordingly. Now restart mailman to take our new settings
+
+(re)start mailman <pre>/etc/init.d/mailman</pre>
 
 copy the apache.conf from /etc/mailman/ to /etc/apach2/sites-enabled
 
