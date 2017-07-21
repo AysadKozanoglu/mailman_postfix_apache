@@ -8,11 +8,11 @@ for the FQDN and correty identifing from postfix
 --> /etc/hostname
 <pre>your</pre>
 
-<pre>hostname -f</pre>
-your.domain.com
+hostname -f
+<pre>your.domain.com</pre>
 
-<pre>uname -n</pre>
-your
+uname -n
+<pre>your</pre>
 
 <pre>
 apt-get update && apt-get install build-essential
