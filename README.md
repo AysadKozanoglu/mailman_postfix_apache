@@ -36,7 +36,7 @@ Type <pre>/usr/lib/mailman/bin/genaliases</pre>, which will update /var/lib/mail
 
 (re)start mailman <pre>/etc/init.d/mailman</pre>
 
-copy the <pre>apache.conf</pre> from <pre>/etc/mailman/</pre> to <pre>/etc/apach2/sites-enabled</pre>
+copy the apache.conf from /etc/mailman/ to <code>/etc/apach2/sites-enabled</code>
 
 comment the line ScriptAlias from mailman/apache.conf
 
