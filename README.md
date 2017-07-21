@@ -29,6 +29,11 @@ FQDN must show to server ip
 create initial list for mailman
 <pre>newlist mailman</pre>
 
+create your first mailinlist
+<pre>newlist <list_name>@<my.domain1.com></pre>
+
+Type /usr/lib/mailman/bin/genaliases, which will update /var/lib/mailman/data/aliases and var/lib/mailman/data/virtual-mailman accordingly. Now restart mailman to take our new settings
+
 copy the apache.conf from /etc/mailman/ to /etc/apach2/sites-enabled
 
 comment the line ScriptAlias from mailman/apache.conf
